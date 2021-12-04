@@ -1,0 +1,36 @@
+<div class="header">
+    <div class="header_menu">
+        <ul>
+            <li>   
+                <a 
+                    [routerLink]="'/'" 
+                    [routerLinkActive]="'active'"
+                    [routerLinkActiveOptions]="{exact:true}"
+                >Кордоны</a>
+            </li>
+            <li>
+                <a 
+                    [routerLink]="'/about-volunteers'" 
+                    [routerLinkActive]="'active'"
+                    [routerLinkActiveOptions]="{exact:true}"
+                >Как стать волонтером?</a>
+            </li>
+            <li>   
+                <a
+                    [routerLink]="'/info'" 
+                    [routerLinkActive]="'active'"
+                    [routerLinkActiveOptions]="{exact:true}"
+                >Важная информация</a>
+            
+            </li>
+            <li>   
+                <a
+                    [routerLink]="'/volunteer-form'" 
+                    [routerLinkActive]="'active'"
+                    [routerLinkActiveOptions]="{exact:true}"
+                    class="volunteer-form"
+                >Стать волонтером</a>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+.header{
+    margin:-10px;
+    /* padding:-10px; */
+    width:101%;
+    height:130px;
+    /* background:#006E4A; */
+    background: #008B8B;
+    display:flex;
+}
+.header_menu{
+    display:flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+.header_menu ul{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_menu li{
+    list-style-type: none;
+}
+
+.header_menu a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header_menu .active{
+    border-bottom: 1px solid #FFFFFF;
+}
+.volunteer-form{
+    background: #2F4F4F;
+    padding:15px;
+    border-radius: 15px;
+}
