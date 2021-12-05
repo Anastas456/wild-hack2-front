@@ -1,0 +1,16 @@
+*{
+    font-family: Rubik;
+}
+h3{
+    font-weight: bold;
+}
+form{
+    font-size: 20px;
+}
+button{
+    background-color: #2F4F4F;
+    border:#2F4F4F;
+}
+button:hover{
+    background-color: #008B8B;
+}

@@ -9,6 +9,7 @@ body {
 }
 .hint{
     margin: 40px auto 40px 100px;
+    font-weight: bold;
 }
 .post-wrap {
     max-width: 1120px;
@@ -68,7 +69,7 @@ body {
     font-weight: 500;
 }
 .post-title, .post-title li {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
     color: #2F4F4F;
     font-style: italic;
