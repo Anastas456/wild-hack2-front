@@ -1,26 +1,26 @@
 <div class="container mt-3 mb-4">
     <h3>Чтобы стать нашим волонтером, заполните форму заявки</h3>
     <form>
-        <div class="form-group">
+        <div class="form-group mt-3">
             <label for="nameInput">ФИО</label>
             <input type="text" class="form-control mb-2" id="nameInput"  placeholder="Иванов Иван Иванович"
             [(ngModel)]="voluunterForm.name" [ngModelOptions]="{ standalone: true }"
             >
         </div>
-        <div class="form-group">
+        <div class="form-group mt-3">
             <label for="emailInput">Email</label>
             <input type="email" class="form-control mb-2" id="emailInput" placeholder="name@example.com"
             [(ngModel)]="voluunterForm.email" [ngModelOptions]="{ standalone: true }"
             >
         </div>
-        <div class="form-group">
+        <div class="form-group mt-3">
             <label for="dateInput">Дата рождения</label>
             <input type="date" class="form-control mb-2" id="dateInput"
             [(ngModel)]="voluunterForm.birth" [ngModelOptions]="{ standalone: true }"
             >
         </div>
 
-        <div class="form-group">
+        <div class="form-group mt-3">
             <label for="phoneInput">Телефон</label>
             <input
               type="phone" class="form-control mb-2" id="phoneInput" placeholder="891112223366"
@@ -29,91 +29,91 @@
              />  <!--[textMask]="{mask: mask}" -->
         </div>
 
-        <div class="form-group">
+        <div class="form-group mt-3">
             <label for="educationInput">Образование</label>
             <input type="text" class="form-control mb-2" id="educationInput"  placeholder="Учебное заведение и направление обучения"
             [(ngModel)]="voluunterForm.education" [ngModelOptions]="{ standalone: true }"
             >
         </div>
 
-        <div class="form-group">
+        <div class="form-group mt-3">
             <label for="desiredWorkAreaInput">Какую работу хотели бы выполнять?</label>
             <input type="text" class="form-control mb-2" id="desiredWorkAreaInput"
             [(ngModel)]="voluunterForm.desiredWorkArea" [ngModelOptions]="{ standalone: true }"
             >
         </div>
 
-        <div class="form-group">
+        <div class="form-group mt-3">
             <label for="arrivalDateInput">Когда вы бы хотели приехать?</label>
             <input type="date" class="form-control mb-2" id="arrivalDateInput"
             [(ngModel)]="voluunterForm.arrivalDate" [ngModelOptions]="{ standalone: true }"
             >
         </div>
 
-        <div class="form-group">
+        <div class="form-group mt-3">
             <label for="departureDateInput">Когда вы бы хотели уехать?</label>
             <input type="date" class="form-control mb-2" id="departureDateInput"
             [(ngModel)]="voluunterForm.departureDate" [ngModelOptions]="{ standalone: true }"
             >
         </div>
 
-        <div class="form-group">
+        <div class="form-group mt-3">
             <label for="languagesInput">Знание языков</label>
             <input type="text" class="form-control mb-2" id="languagesInput"  placeholder="Напишите, какие иностранные языки знаете, и уровень владения"
             [(ngModel)]="voluunterForm.languages" [ngModelOptions]="{ standalone: true }"
             >
         </div>
 
-        <div class="form-group">
+        <div class="form-group mt-3">
             <label for="experienceInput">Опыт волонтёрства</label>
             <textarea class="form-control mb-2" id="experienceInput" rows="3" placeholder="Опишите свой опыт волонтерства: где проходили, какие работы проделали"
             [(ngModel)]="voluunterForm.experience" [ngModelOptions]="{ standalone: true }"
             ></textarea>
         </div>
 
-        <div class="form-group">
+        <div class="form-group mt-3">
             <label for="recomendationInput">Рекомендации</label>
             <textarea class="form-control mb-2" id="recomendationInput" rows="3" placeholder="Если у вас имеются рекомендаци или благодарности по итогам участия в волонтерских акциях, то укажите их"
             [(ngModel)]="voluunterForm.recomendation" [ngModelOptions]="{ standalone: true }"
             ></textarea>
         </div>
 
-        <div class="form-group">
+        <div class="form-group mt-3">
             <label for="skillsInput">Навыки</label>
             <textarea class="form-control mb-2" id="skillsInput" rows="3" placeholder="Опишите свои навыки"
             [(ngModel)]="voluunterForm.skills" [ngModelOptions]="{ standalone: true }"
             ></textarea>
         </div>
 
-        <div class="form-group">
+        <div class="form-group mt-3">
             <label for="volunteerPassportInput">Книжка волонтёра</label>
             <input type="text" class="form-control mb-2" id="volunteerPassportInput"  placeholder="Если у вас есть книжка волонтёра, укажите ее идентификационный номер"
             [(ngModel)]="voluunterForm.volunteerPassport" [ngModelOptions]="{ standalone: true }"
             >
         </div>
         
-        <div class="form-group">
+        <div class="form-group mt-3">
             <label for="reasonInput">Почему именно ты должен стать волонтером?</label>
             <input type="text" class="form-control mb-2" id="reasonInput"  placeholder="Кратко расскажите о себе и своей мотивации стать волонтёром"
             [(ngModel)]="voluunterForm.reason" [ngModelOptions]="{ standalone: true }"
             >
         </div>
 
-        <div class="form-group">
+        <div class="form-group mt-3">
             <label for="videoLinkInput">Ссылка на видео</label>
             <input type="text" class="form-control mb-2" id="videoLinkInput"  placeholder="Чтобы лучше оценить вас, запишите короткое видео о себе на 1-2 минуты"
             [(ngModel)]="voluunterForm.videoLink" [ngModelOptions]="{ standalone: true }"
             >
         </div>
 
-        <div class="form-group">
+        <div class="form-group mt-3">
             <label for="commentsInput">Комментарии</label>
             <textarea class="form-control mb-2" id="commentsInput" rows="3" placeholder="Если остались какие-либо вопросы или предложения, напишите их здесь"
             [(ngModel)]="voluunterForm.comments" [ngModelOptions]="{ standalone: true }"
             ></textarea>
         </div>
 
-        <button type="submit" class="btn btn-primary mb-2"
+        <button type="submit" class="btn btn-primary mb-2 mt-3"
         (click)="sendForm()"
         >Отправить</button>
 

@@ -14,6 +14,9 @@ import { VolunteerFormComponent } from './volunteer-form/volunteer-form.componen
 import {HttpClientModule} from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { TextMaskModule } from 'angular2-text-mask';
+import { SliderComponent } from './shared/components/slider/slider.component';
+import { CarouselModule  } from 'ngx-owl-carousel-o';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,8 @@ import { TextMaskModule } from 'angular2-text-mask';
     AboutVolunteersComponent,
     CordonsComponent,
     VolunteerFormComponent,
-    InfoComponent
+    InfoComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +37,9 @@ import { TextMaskModule } from 'angular2-text-mask';
     NgbAlertModule,
     HttpClientModule,
     FormsModule,
-    TextMaskModule
+    TextMaskModule,
+    CarouselModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
