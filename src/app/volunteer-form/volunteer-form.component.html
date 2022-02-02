@@ -39,21 +39,21 @@
         <div class="form-group mt-3">
             <label for="desiredWorkAreaInput">Какую работу хотели бы выполнять?</label>
             <input type="text" class="form-control mb-2" id="desiredWorkAreaInput"
-            [(ngModel)]="voluunterForm.desiredWorkArea" [ngModelOptions]="{ standalone: true }"
+            [(ngModel)]="voluunterForm.desired_job" [ngModelOptions]="{ standalone: true }"
             >
         </div>
 
         <div class="form-group mt-3">
             <label for="arrivalDateInput">Когда вы бы хотели приехать?</label>
             <input type="date" class="form-control mb-2" id="arrivalDateInput"
-            [(ngModel)]="voluunterForm.arrivalDate" [ngModelOptions]="{ standalone: true }"
+            [(ngModel)]="voluunterForm.desired_start" [ngModelOptions]="{ standalone: true }"
             >
         </div>
 
         <div class="form-group mt-3">
             <label for="departureDateInput">Когда вы бы хотели уехать?</label>
             <input type="date" class="form-control mb-2" id="departureDateInput"
-            [(ngModel)]="voluunterForm.departureDate" [ngModelOptions]="{ standalone: true }"
+            [(ngModel)]="voluunterForm.desired_end" [ngModelOptions]="{ standalone: true }"
             >
         </div>
 
@@ -67,7 +67,7 @@
         <div class="form-group mt-3">
             <label for="experienceInput">Опыт волонтёрства</label>
             <textarea class="form-control mb-2" id="experienceInput" rows="3" placeholder="Опишите свой опыт волонтерства: где проходили, какие работы проделали"
-            [(ngModel)]="voluunterForm.experience" [ngModelOptions]="{ standalone: true }"
+            [(ngModel)]="voluunterForm.volunteer_experience" [ngModelOptions]="{ standalone: true }"
             ></textarea>
         </div>
 
@@ -88,21 +88,21 @@
         <div class="form-group mt-3">
             <label for="volunteerPassportInput">Книжка волонтёра</label>
             <input type="text" class="form-control mb-2" id="volunteerPassportInput"  placeholder="Если у вас есть книжка волонтёра, укажите ее идентификационный номер"
-            [(ngModel)]="voluunterForm.volunteerPassport" [ngModelOptions]="{ standalone: true }"
+            [(ngModel)]="voluunterForm.volunteer_book" [ngModelOptions]="{ standalone: true }"
             >
         </div>
         
         <div class="form-group mt-3">
             <label for="reasonInput">Почему именно ты должен стать волонтером?</label>
             <input type="text" class="form-control mb-2" id="reasonInput"  placeholder="Кратко расскажите о себе и своей мотивации стать волонтёром"
-            [(ngModel)]="voluunterForm.reason" [ngModelOptions]="{ standalone: true }"
+            [(ngModel)]="voluunterForm.why" [ngModelOptions]="{ standalone: true }"
             >
         </div>
 
         <div class="form-group mt-3">
             <label for="videoLinkInput">Ссылка на видео</label>
             <input type="text" class="form-control mb-2" id="videoLinkInput"  placeholder="Чтобы лучше оценить вас, запишите короткое видео о себе на 1-2 минуты"
-            [(ngModel)]="voluunterForm.videoLink" [ngModelOptions]="{ standalone: true }"
+            [(ngModel)]="voluunterForm.video" [ngModelOptions]="{ standalone: true }"
             >
         </div>
 

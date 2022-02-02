@@ -20,16 +20,16 @@ export class VolunteerFormComponent implements OnInit {
       birth:'',
       phone:'',
       education:'',
-      desiredWorkArea:'',
-      arrivalDate:'',
-      departureDate:'',
+      desired_job:'',
+      desired_start:'',
+      desired_end:'',
       languages:'',
-      experience:'',
+      volunteer_experience:'',
       recomendation:'',
       skills:'',
-      volunteerPassport:'',
-      reason:'',
-      videoLink:'',
+      volunteer_book:'',
+      why:'',
+      video:'',
       comments:''
 
 
