@@ -7,7 +7,6 @@
 .containers {
 	display: flex;
 	justify-content: center;
-	/* align-items: center; */
 	height: 100vh;
 	/* width: 100vw; */
     width: 100%;
@@ -16,7 +15,6 @@
 .section {
 	position: relative;
 	height: 100%;
-	/* align-items: center; */
 	justify-content: center;
 	box-sizing: border-box;
 	text-align: center;
@@ -30,7 +28,6 @@
 	position: relative;
 	margin: auto;
 	width: 100%;
-	/* height: 300px; */
 	text-align: center;
 	margin-top: 100px;
 }
@@ -43,11 +40,6 @@
 	vertical-align: middle;
     color:white;
 }
-
-/* .cont_title h3 {
-	text-transform: uppercase;
-	font-size: 1.3vw;
-} */
 
 .cont_desc {
 	position: relative;
@@ -65,7 +57,7 @@
 	font-size: 14px;
     color:white;
 	background: #A5B585;
-	opacity: 0.8;
+	opacity: 0.9;
 	padding:10px;
 	border-radius: 7%;
 }
