@@ -15,7 +15,7 @@ export class VolunteerFormComponent implements OnInit {
 
   ngOnInit(): void {
     this.voluunterForm={
-      name:'',
+      fio:'',
       email:'',
       birth:'',
       phone:'',
@@ -45,6 +45,7 @@ export class VolunteerFormComponent implements OnInit {
       },
       error =>{
         console.log(error);
+        console.log(this.voluunterForm);
         alert('Произошла ошибка');
       }
     )

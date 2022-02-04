@@ -18,24 +18,22 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    padding:30px;
+    /* padding:30px; */
     width:600px;
     height:550px;
 }
-.slide .image1 img{
-    width:400px;
-}
 .slide .image2 img{
-    width:500px;
-}
-.slide .image3 img{
     width:600px;
 }
+.slide .image3 img{
+    width:500px;
+}
 .slide .image4 img{
-    width:400px;
+    width:600px;
 }
 .slide .image5 img{
     width:500px;
+    margin: 0 30px 20px 0;
 }
 .slide .image6 img{
     width:600px;

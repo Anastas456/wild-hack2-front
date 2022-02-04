@@ -2,26 +2,26 @@
     <h3>Чтобы стать нашим волонтером, заполните форму заявки</h3>
     <form>
         <div class="form-group mt-3">
-            <label for="nameInput">ФИО</label>
+            <label for="nameInput">ФИО*</label>
             <input type="text" class="form-control mb-2" id="nameInput"  placeholder="Иванов Иван Иванович"
-            [(ngModel)]="voluunterForm.name" [ngModelOptions]="{ standalone: true }"
+            [(ngModel)]="voluunterForm.fio" [ngModelOptions]="{ standalone: true }"
             >
         </div>
         <div class="form-group mt-3">
-            <label for="emailInput">Email</label>
+            <label for="emailInput">Email*</label>
             <input type="email" class="form-control mb-2" id="emailInput" placeholder="name@example.com"
             [(ngModel)]="voluunterForm.email" [ngModelOptions]="{ standalone: true }"
             >
         </div>
         <div class="form-group mt-3">
-            <label for="dateInput">Дата рождения</label>
+            <label for="dateInput">Дата рождения*</label>
             <input type="date" class="form-control mb-2" id="dateInput"
             [(ngModel)]="voluunterForm.birth" [ngModelOptions]="{ standalone: true }"
             >
         </div>
 
         <div class="form-group mt-3">
-            <label for="phoneInput">Телефон</label>
+            <label for="phoneInput">Телефон*</label>
             <input
               type="phone" class="form-control mb-2" id="phoneInput" placeholder="891112223366"
               [(ngModel)]="voluunterForm.phone" [ngModelOptions]="{ standalone: true }"
@@ -30,35 +30,35 @@
         </div>
 
         <div class="form-group mt-3">
-            <label for="educationInput">Образование</label>
+            <label for="educationInput">Образование*</label>
             <input type="text" class="form-control mb-2" id="educationInput"  placeholder="Учебное заведение и направление обучения"
             [(ngModel)]="voluunterForm.education" [ngModelOptions]="{ standalone: true }"
             >
         </div>
 
         <div class="form-group mt-3">
-            <label for="desiredWorkAreaInput">Какую работу хотели бы выполнять?</label>
+            <label for="desiredWorkAreaInput">Какую работу хотели бы выполнять?*</label>
             <input type="text" class="form-control mb-2" id="desiredWorkAreaInput"
             [(ngModel)]="voluunterForm.desired_job" [ngModelOptions]="{ standalone: true }"
             >
         </div>
 
         <div class="form-group mt-3">
-            <label for="arrivalDateInput">Когда вы бы хотели приехать?</label>
+            <label for="arrivalDateInput">Когда вы бы хотели приехать?*</label>
             <input type="date" class="form-control mb-2" id="arrivalDateInput"
             [(ngModel)]="voluunterForm.desired_start" [ngModelOptions]="{ standalone: true }"
             >
         </div>
 
         <div class="form-group mt-3">
-            <label for="departureDateInput">Когда вы бы хотели уехать?</label>
+            <label for="departureDateInput">Когда вы бы хотели уехать?*</label>
             <input type="date" class="form-control mb-2" id="departureDateInput"
             [(ngModel)]="voluunterForm.desired_end" [ngModelOptions]="{ standalone: true }"
             >
         </div>
 
         <div class="form-group mt-3">
-            <label for="languagesInput">Знание языков</label>
+            <label for="languagesInput">Знание языков*</label>
             <input type="text" class="form-control mb-2" id="languagesInput"  placeholder="Напишите, какие иностранные языки знаете, и уровень владения"
             [(ngModel)]="voluunterForm.languages" [ngModelOptions]="{ standalone: true }"
             >
@@ -79,7 +79,7 @@
         </div>
 
         <div class="form-group mt-3">
-            <label for="skillsInput">Навыки</label>
+            <label for="skillsInput">Навыки*</label>
             <textarea class="form-control mb-2" id="skillsInput" rows="3" placeholder="Опишите свои навыки"
             [(ngModel)]="voluunterForm.skills" [ngModelOptions]="{ standalone: true }"
             ></textarea>
@@ -93,14 +93,14 @@
         </div>
         
         <div class="form-group mt-3">
-            <label for="reasonInput">Почему именно ты должен стать волонтером?</label>
+            <label for="reasonInput">Почему именно ты должен стать волонтером?*</label>
             <input type="text" class="form-control mb-2" id="reasonInput"  placeholder="Кратко расскажите о себе и своей мотивации стать волонтёром"
             [(ngModel)]="voluunterForm.why" [ngModelOptions]="{ standalone: true }"
             >
         </div>
 
         <div class="form-group mt-3">
-            <label for="videoLinkInput">Ссылка на видео</label>
+            <label for="videoLinkInput">Ссылка на видео*</label>
             <input type="text" class="form-control mb-2" id="videoLinkInput"  placeholder="Чтобы лучше оценить вас, запишите короткое видео о себе на 1-2 минуты"
             [(ngModel)]="voluunterForm.video" [ngModelOptions]="{ standalone: true }"
             >
